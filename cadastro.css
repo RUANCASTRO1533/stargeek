@@ -1,4 +1,4 @@
-
+/* CSS reset */
 *, *:before, *:after { 
     margin:0;
     padding:0;
@@ -7,6 +7,7 @@
   
   body{
     margin:10px;
+    background-image: url(/Stargeek/img/image\ 1LOGO22.png);
   }
   
   a{
@@ -27,7 +28,7 @@
 
   h1{
     font-size: 48px;
-    color: #066a75;
+    color: #000000;
     padding: 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -40,8 +41,8 @@
     width: 100%;
     height: 2px;
     margin-top: 10px;
-    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
-    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(0, 0, 0, 0.8) 20%,rgb(0, 0, 0) 53%,rgba(0, 0, 0, 0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(0, 0, 0, 0.8) 20%,rgb(0, 0, 0) 53%,rgba(0, 0, 0, 0.8) 79%,rgba(147,184,189,0) 100%); 
   }
   
   p{
@@ -51,19 +52,19 @@
     margin: 0px;
   }
   label{
-    color: #405c60;
+    color: #000000;
     position: relative;
   }
   
   /**** advanced input styling ****/
   /* placeholder */
   ::-webkit-input-placeholder  {
-    color: #bebcbc; 
+    color: #929191; 
     font-style: italic;
   }
   input:-moz-placeholder,
   textarea:-moz-placeholder{
-    color: #bebcbc;
+    color: #6f6f6f;
     font-style: italic;
   } 
   input {
@@ -74,7 +75,7 @@
     width: 95%;
     margin-top: 4px;
     padding: 10px;  
-    border: 1px solid #b2b2b2;
+    border: 1px solid #727272;
     
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -90,13 +91,13 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: #3d9db3;
+    background: #000000;
     padding: 8px 5px;
-    color: #fff;
+    color: #00ff15;
     font-size: 20px;  
-    border: 1px solid #fff; 
+    border: 1px solid #00ff00; 
     margin-bottom: 10px;  
-    text-shadow: 0 1px 1px #333;
+    text-shadow: 0 1px 1px #00ff26;
     
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -104,32 +105,32 @@
     transition: all 0.2s linear;
   }
   input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: #ff03d5;
   }
   
   /*marcando os links para mudar de um formulário para outro */
   .link{
     position: absolute;
-    background: #e1eaeb;
-    color: #7f7c7c;
+    background: #000000;
+    color: #000000;
     left: 0px;
     height: 20px;
     width: 440px;
     padding: 17px 30px 20px 30px;
     font-size: 16px;
     text-align: right;
-    border-top: 1px solid #dbe5e8;
+    border-top: 1px solid #292b2c;
   
     -webkit-border-radius: 0 0  5px 5px;
     border-radius: 0 0  5px 5px;
   }
   .link a {
     font-weight: bold;
-    background: #f7f8f1;
+    background: #30312e;
     padding: 6px;
-    color: rgb(29, 162, 193);
+    color: rgb(0, 255, 0);
     margin-left: 10px;
-    border: 1px solid #cbd518;
+    border: 1px solid #00f310;
   
     -webkit-border-radius: 4px;
     border-radius: 4px;  
@@ -138,9 +139,9 @@
     transition: all 0.4s  linear;
   }
   .link a:hover {
-    color: #39bfd7;
-    background: #f7f7f7;
-    border: 1px solid #4ab3c6;
+    color: #00ff08;
+    background: #ff00c8;
+    border: 1px solid #00ff0d;
   }
 
   #cadastro, 
@@ -217,6 +218,7 @@
   
   @keyframes fadeOutLeft {
     0% {
+      
       opacity: 1;
       transform: translateX(0);
     }

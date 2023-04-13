@@ -1,18 +1,103 @@
-*{
+body {
+    background-color: rgb(33, 0, 0);
+}
+
+.cab {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    min-height: 90px;
+    flex-wrap: wrap;}
+    .cab {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        min-height: 90px;
+        flex-wrap: wrap;}
+        .le > a {
+            margin: 15px;
+            text-decoration: none;
+            color: rgba(254, 254, 254, 0.711);
+            font-size: 15px;
+        }
+        .le > a:hover {
+            color: rgb(255, 255, 255);
+        }
+        .ri {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    font-size: 15px;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+.ri > a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+.aim {
+    color: rgb(255, 255, 255);
+}
+.br {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 90px;
+    color: rgb(255, 255, 255);
+    transition: 100ms;
+}
+.br:hover {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    transition: 100ms;} 
+imgg{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.fundo{
-    background-image: url(/Stargeek/img/Group\ 7grup.8.png);
+}    
+ body{
+    background-image: url(/Stargeek/img/image\ 1LOGO22.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
-    background-color: black;
-}   
-.logo{
+ }
+
+ .lc{
     margin: 0 auto;
-    text-align: center;
-    background-color: black;
-}
+    width: 195px;
+    margin-top: 20px;
+ }
+ #divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+
+  
