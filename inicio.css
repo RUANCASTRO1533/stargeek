@@ -1,5 +1,10 @@
+@font-face {
+    font-family: vandals;
+    src: url(GraffitiVandals.ttf);
+}
+
 body {
-    background-color: rgb(33, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .cab {
@@ -69,8 +74,8 @@ imgg{
     margin-top: 20px;
  }
  #divBusca{
-    background-color:#E0EEEE;
-    border:solid 2px #5eacae;
+    background-color:#ced5d5;
+    border:solid 2px #c7c7c7;
     border-radius:10px;
     width:300px;
     height:32px;
@@ -93,11 +98,14 @@ imgg{
     border-radius:0 7px 7px 0;
     width:70px;
     font-weight:bold;
-    background:#5F9EA0;
+    background:#c5c5c5;
   }
-  
-  #divBusca img{
-    float:left;
+  .box{
+    font-family: vandals;
+    color: white;
+  }
+  .box{
+    font-family: vandals;
+    color: white;
   }
 
-  
