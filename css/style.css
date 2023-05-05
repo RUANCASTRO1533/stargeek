@@ -55,6 +55,27 @@ h2 {
     padding: 10px;
     width: 300px;
     color: grey;
-    margin:bottom:30px;
+    margin: bottom: 30px;
 }
-bac
+.botao-vazado{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #000;
+    border-radius: 5px;
+  }
+  .botao-vazado:hover{
+    background-color: white;
+    color: #000;
+  }
+  .button{
+    text-decoration: none;
+    padding: 16px 30px;
+    background-color: hsl(0, 0%, 45%);
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }

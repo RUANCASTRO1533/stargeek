@@ -59,12 +59,12 @@
   /**** advanced input styling ****/
   /* placeholder */
   ::-webkit-input-placeholder  {
-    color: #929191; 
+    color: #ffffff; 
     font-style: italic;
   }
   input:-moz-placeholder,
   textarea:-moz-placeholder{
-    color: #6f6f6f;
+    color: #ffffff;
     font-style: italic;
   } 
   input {
@@ -75,13 +75,13 @@
     width: 95%;
     margin-top: 4px;
     padding: 10px;  
-    border: 1px solid #727272;
+    border: 1px solid #ffffff;
     
     -webkit-border-radius: 3px;
     border-radius: 3px;
     
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
-    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(255, 255, 255, 0.6) inset;
     
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
@@ -91,13 +91,13 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: #000000;
+    background: #ffffff;
     padding: 8px 5px;
-    color: #00ff15;
+    color: #000000;
     font-size: 20px;  
     border: 1px solid #00ff00; 
     margin-bottom: 10px;  
-    text-shadow: 0 1px 1px #00ff26;
+    text-shadow: 0 1px 1px #000000;
     
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -151,8 +151,8 @@
     width: 88%; 
     padding: 18px 6% 60px 6%;
     margin: 0 0 35px 0;
-    background: rgb(247, 247, 247);
-    border: 1px solid rgba(147, 184, 189,0.8);
+    background: rgb(48, 48, 48);
+    border: 1px solid rgba(88, 89, 89, 0.8);
     
     -webkit-box-shadow: 5px;
     border-radius: 5px;
@@ -217,12 +217,21 @@
   }
   
   @keyframes fadeOutLeft {
-    0% {
-      
       opacity: 1;
       transform: translateX(0);
-    }
-    100% {
       opacity: 0;
       transform: translateX(-20px);
+}
+.botao-vazado{
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000000;
+  border-radius: 5px;
+}
+.botao-vazado:hover{
+  background-color: rgb(115, 115, 115);
+  color: #000;
 }
